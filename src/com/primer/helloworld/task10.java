@@ -18,8 +18,7 @@ public class task10 {
         System.out.print ("Элементы первой строки, умноженные на 3:");
         for (int i = 0; i < 1; i++)
             for (int j = 0; j < y; j++){
-            System.out.print (" " + array[i][j] * 3);
+            System.out.println(array[i][j] * 3);
         }
-        System.out.println();
     }
 }

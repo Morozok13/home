@@ -16,5 +16,5 @@ public class task7 {
         else {
             System.out.print("Такой константы нет!");
         }
-        }
+    }
 }

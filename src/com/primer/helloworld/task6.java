@@ -11,10 +11,10 @@ public class task6 {
         int y = sc.nextInt();
         System.out.print("Введите число № 3: ");
         int z = sc.nextInt();
-        int a = (x+y+z)/3;
-        System.out.println(a);
-        int s = a/2;
-        if (s > 3) {
+        double average = (x + y + z) / 3;
+        System.out.println(average);
+        int half_average = (int) (average / 2);
+        if (half_average > 3) {
             System.out.print("Программа выполнена корректно");
         }
     }
