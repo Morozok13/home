@@ -14,8 +14,7 @@ public class task9 {
         }
         System.out.print ("Элементы массива, умноженные на 2:");
         for (int i = 0; i < size; i++) {
-            System.out.print (" " + array[i] * 2);
+            System.out.println(array[i] * 2);
         }
-        System.out.println();
     }
 }

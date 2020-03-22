@@ -13,7 +13,7 @@ public class task6 {
         int z = sc.nextInt();
         double average = (x + y + z) / 3;
         System.out.println(average);
-        int half_average = (int) (average / 2);
+        double half_average = average / 2;
         if (half_average > 3) {
             System.out.print("Программа выполнена корректно");
         }

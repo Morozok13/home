@@ -10,7 +10,7 @@ public class task7 {
         System.out.print("Введите число: ");
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
-        if (number==z | number==y | number==x){
+        if (number == z | number == y | number == x){
             System.out.print("Данное значение имеется в константах");
         }
         else {
